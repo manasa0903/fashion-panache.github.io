@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Panache | Contact US</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <nav class="nav nav_top">
+      <div class="logo">
+        <a href="index.html" ><img src="logo2.png"  width="250" ></a>
+      </div>
+      <div class="nav_side">
+        <a href="about.html">About Us</a>
+        <a href="service.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href=" ">Login</a>
+      </div>
+    </nav>
+    
+    <div class="contact_container">
+      <h2>Contact Us</h2>
+      <div class="g_map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62217.091801593095!2d77.59717277550253!3d12.935448615082905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144ed898fc2d%3A0x1681f38e8c00ae56!2sKoramangala%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1659762650743!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="contact_content">
+        <p><b>Address: Bengaluru , India</b></p>
+        <p><b>Call: +91 1234567898</b></p>
+        <p><b>Mail:pac@gmail.com</b></p>
+      </div>
+    </div>
+
+
+
+    <div class="feed">
+      <h2>Write a Review</h2>
+      <div class="feed_form" >
+        <form name="submit-form" method="post">
+          <input type="text" name="Name" placeholder="Name"><br>
+          <input type="text"  name="Email" placeholder="Email ID"><br>
+          <input type="number" name="Number" placeholder="Contact Number"><br>
+          <textarea  rows=5 columns="7" name="Review" placeholder="Write your review"></textarea><br>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+
+    
+    <footer>
+      <div class="foooter_logo">
+        <a href="index.html"><img src="logo2.png" width="200"> </a>
+        <div class="pages">
+          <h3>Pages</h3>
+          <a href="about.html">About Us</a>|
+          <a href="service.html">Services</a>|
+          <a href="blog.html">Blogs</a>|
+          <a href="login.html">Login</a>|
+          <a href="signup.html">Sign Up</a>
+        </div>
+        <div class="doc">
+          <h3>Documents</h3>
+          <a href="">Privacy Policy</a>|
+          <a href="">Terms of Use</a>|
+          <a href="">Refund Policy</a>|
+        </div>
+        <div class="social">
+          <h3>Follow us</h3>
+          <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>   
+        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+        <div class="contact">
+          <h3>Contact Us</h3>
+          <a href="https://api.WhatsApp.com/send?phone= +918999999909" targer="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+          <a href="tel: +918999999909"><i class="fa fa-phone" aria-hidden="true"></i></a>
+          <a href="panache.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </div>
+        <hr>
+        <p>Copyright &copy; 2022 </p>
+
+      </div>
+    </footer>
+  
+    <script type="text/javascript">
+      const scriptURL='https://script.google.com/macros/s/AKfycbzC-DVSAFGVj9dUqRBs6ogDvxyIASTM3P3lE-77zgzJrYxgL5c6EP4Qd8anCrnQNUHqgw/exec'
+      const form=document.forms['submit-form']
+
+      form.addEventListener('submit',e=>{
+        e.preventDefault()
+        fetch(scriptURL,{method:'POST',body: new FormData(form)})
+        .then(response=>alert("Thanks for contacting us..! "))
+        .catch(error=>console.error('Error!',error.message))
+      })
+    </script>

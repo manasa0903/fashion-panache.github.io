@@ -1,0 +1,546 @@
+
+.nav{
+  background-color:white;
+  z-index:1;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  min-height: 80px;
+  box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.nav_top{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 2px;
+}
+.nav_top h5{
+ padding-right:100px;
+ padding-left:1px;
+ text-align: center;
+}
+
+
+.logo{
+  float: left;
+  width: 40%;
+
+}
+.logo img{
+  padding: 2px;
+}
+.logo h5{
+  text-decoration: none;
+  margin-top:0px;
+  margin-right: 0px;
+  margin-bottom:0px;
+  padding-top: 0px;
+  color: black;
+  font-weight: bolder;
+  font-family: italic;
+  font-style: italic;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+
+.nav_side{
+  float: right;
+  width: 35%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 650px;
+}
+
+.nav_side a{
+  text-decoration: none;
+  margin-right: 25px;
+  margin-bottom:100px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  color: black;
+  font-weight: bold;
+  font-family: cosmic, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.nav_side a:hover{
+  color: rgb(35, 35, 112);
+  transition: all 1s ease;
+}
+
+.main{
+  background-image: url('bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  margin-top: 2px;
+  z-index: 3;
+}
+
+.main .main_content{
+  float: left;
+  padding-top: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+
+}
+
+.main .main_content h2{
+  color: black;
+  font-size: 50px;
+  font-family: cosmic,sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  
+}
+
+.main .main_content h3{
+  font-size: 25px;
+  opacity: 0.8;
+  color: rgb(6, 118, 187);
+  font-weight:light;
+}
+
+.main .main_content .btn{
+  margin-top: 50px;
+}
+
+.main .main_content .btn a{
+  text-decoration: none;
+  margin: 50px;
+  padding: 10px 20px;
+  color: black;
+  font-family: cosmic,sans-serif;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.main .main_content .btn a:hover{
+  background-color: white;
+
+}
+
+.product{
+  padding-bottom: 50px;
+
+}
+.product h2{
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+}
+
+.product .product_container{
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.product .product_container .item{
+  width: 80%;
+  margin: 10px;
+  height: auto;
+}
+.product .product_container .item:hover{
+  box-shadow: 0px 3px 30px 0px rgba(0,0,0,.17);
+}
+
+
+.product .product_container .item .item_img{
+  width: 80%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.product .product_container .item .item_img img{
+  width: 80%;
+  height: 500px;
+}
+
+.product .product_container .item .item_content h3{
+  padding: 10px;
+  font-size: 25px;
+  font-family: cosmic,sans-serif;
+}
+
+.product .product_container .item a{
+  text-decoration: none;
+  margin: 50px;
+  padding: 10px 20px;
+  color: black;
+  font-family: cosmic,sans-serif;
+  text-align: center;
+  border: 2px solid  blue;
+  border-radius: 10px;
+}
+
+.product .product_container .item .item_content a:hover{
+  background-color: white;
+  color: rgb(15, 15, 152);
+}
+
+
+.product .product_btn{
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.product .product_btn a{
+  text-decoration: none;
+  margin: 50px;
+  padding: 10px 20px;
+  color: black;
+  font-family: cosmic,sans-serif;
+  text-align: center;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+.product .product_btn a:hover{
+  background-color: white;
+  color: rgb(15, 15, 152);
+}
+
+.keypoint{
+  padding: 50px;
+
+}
+
+.keypoint h2{
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  padding: 10px;
+}
+.keypoint .key_container{
+  display: flex;
+
+}
+.keypoint .key_container .key_content{
+  width: 40%;
+  padding: 20px;
+  float: left;
+}
+
+.keypoint .key_container .key_content li{
+  margin: 10px;
+  padding: 10px;
+  color:black;
+  text-align: left;
+  font-family: cosmic,sans-serif;
+  box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15)
+
+}
+
+.keypoint .key_container .key_img{
+  width: 40%;
+  float: right;
+  margin-left: 100px;
+}
+
+.keypoint .key_container .key_img img{
+  width: 120%;
+}
+
+
+.testi{
+  padding: 50px;
+
+}
+
+.testi h2{
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.testi .test_container{
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.testi .test_container .carousel-inner{
+  background-color: rgb(43, 43, 174);
+  box-shadow: none;
+}
+
+.testi .testi_container .item{
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(94, 94, 129);
+  box-shadow: none;
+}
+
+.testi .testi_container .item .item_img{
+  width:50%;
+  height:350px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.testi .testi_container .item .item_img img{
+  width:50%;
+  height:250px;
+  margin-top:100px;
+  border-radius: 20%;
+}
+
+.testi .testi_container .item .item_content h3{
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: cosmic,sans-serif;
+}
+.testi .testi_container .item .item_content p{
+  font-size:20px;
+  color:white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.team{
+  padding: 50px;
+}
+
+.team h2{
+  color:black;
+  font-size: 35px;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.team .team-container{
+  display:flex;
+}
+
+.team .team_container .team_video{
+  width: 80%;
+  padding: 50px;
+  align-items: center;
+}
+
+.team .team_container .team_video video{
+  width: 100%;
+}
+.team .team_container .team_content{
+  width:80%;
+  padding: 50px;
+  margin-left: 50px;
+}
+.team .team_container .team_content p{
+ padding: 5px;
+ font-size: 20px;
+ text-align: center;
+ margin-left: 50px;
+}
+
+.feed{
+  padding:50px;
+  background-image:url('11.png');
+  background-size:cover;
+}
+.feed h2{
+  color: white;
+  font-size:35px;
+  text-align:center;
+  padding:10px;
+  text-transform:uppercase;
+}
+
+.feed .feed_form{
+ padding:20px;
+}
+
+.feed .feed_form form input{
+  width:40%;
+  margin:7px;
+  padding: 5px;
+  outline: none;
+  border: none;
+
+}
+
+.feed .feed_form form textarea{
+  width:40%;
+  margin:7px;
+  padding: 5px;
+  outline: none;
+  border: none;
+
+}
+
+.feed .feed_form form button{
+  width:40%;
+  margin:7px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  background-color:rgb(19, 19, 102);
+  color:white;
+  border-radius:5px;
+}
+
+.about_us{
+  padding:100px;
+}
+
+.about_us h2{
+  color: Black;
+  font-size:35px;
+  text-align:center;
+  padding:10px;
+  font-family:cosmic,sans-serif;
+  text-transform:uppercase;
+
+}
+
+.about_us p{
+  padding: 10px;
+ font-size: 15px;
+ text-align:center;
+ margin-left: 50px;
+line-height:25px;
+}
+
+.contact_container{
+  padding: 100px;
+
+}
+.contact_container h2{
+  color: Black;
+  font-size:35px;
+  text-align:center;
+  padding:10px;
+  font-family:cosmic,sans-serif;
+  text-transform:uppercase;
+}
+
+.contact_container .g_map{
+  border: 4px solid black;
+}
+
+.contact_container .contact_content{
+  padding:20px;
+}
+.contact_container .contact_content p{
+  padding: 10px;
+ font-size: 15px;
+ text-align:center;
+ margin-left: 50px;
+line-height:25px;
+}
+
+
+footer{
+  background-color:#99A3A4;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+footer .pages{
+  text-align:center;
+}
+
+footer .pages h3{
+  color: black;
+  font-size: 20px;
+  font-family: cosmic,sans-serif;
+  padding: 5px;
+}
+
+footer .pages a{
+  text-decoration: none;
+  margin: 10px;
+  color: black;
+  font-size: 15px;
+  font-family: cosmic , sans-serif;
+}
+footer .pages a:hover{
+  color: white;
+}
+
+footer .doc{
+  text-align:center;
+}
+
+footer .doc h3{
+  color: black;
+  font-size: 20px;
+  font-family: cosmic,sans-serif;
+  padding: 5px;
+}
+
+footer .doc a{
+  text-decoration: none;
+  margin: 10px;
+  color: black;
+  font-size: 15px;
+  font-family: cosmic , sans-serif;
+}
+footer .doc a:hover{
+  color: white;
+}
+
+footer .social{
+  text-align:center;
+}
+
+footer .social h3{
+  color: black;
+  font-size: 20px;
+  font-family: cosmic,sans-serif;
+  padding: 5px;
+}
+
+footer .social a{
+  tex-decoration: none;
+  font-size: 30px;
+  color: black;
+  margin: 20px;
+}
+
+footer .social a:hover{
+  color:white;
+}
+
+footer .contact{
+  text-align:center;
+}
+
+footer .contact h3{
+  color: black;
+  font-size: 20px;
+  font-family: cosmic,sans-serif;
+  padding: 5px;
+}
+
+footer .contact a{
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  margin: 20px;
+}
+
+footer .contact a:hover{
+  color:white;
+}
